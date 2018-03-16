@@ -3,7 +3,7 @@ import m from 'mithril';
 var Episode = {
 	view: function(vnode) {
 		var ep = vnode.attrs.ep;
-		console.log(ep)
+		// console.log(ep)
 		return m('.ep', [
 			m('.ep-title', [
 				m('a', {href:ep.link, target:'_blank'}, ep.title)
@@ -22,20 +22,3 @@ var Episode = {
 }
 
 export default Episode;
-
-				// pubdate
-				// duration
-				// size
-				// download
-
-
-// enclosure
-// 		length
-// 		url(download)
-// link
-// pubDate
-// title
-// itunes
-// 		duration
-// 		image
-// 		subtitle
