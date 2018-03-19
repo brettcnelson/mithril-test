@@ -3,7 +3,7 @@ const app = express();
 
 const port = process.env.PORT;
 
-app.use(express.static('/dist'));
+app.use(express.static('dist'));
 
 
-app.listen(port, () => console.log(`express listening on ${port}`));
+app.listen(port, () => console.log(`express listening ${port}`));
