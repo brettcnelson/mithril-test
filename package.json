@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/brettcnelson/mithril-test#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "mithril": "^1.1.6",
     "rss-parser": "^3.1.2"
   },
